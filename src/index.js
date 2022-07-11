@@ -9,13 +9,13 @@ const App = () => {
       <CommentDetail
         author="Alice"
         timeAgo="Today at 03:00 a.m."
-        text="Hello!"
+        content="Hello!"
       />
-      <CommentDetail author="Bob" timeAgo="Today at 01:00 a.m." text="Hi!" />
+      <CommentDetail author="Bob" timeAgo="Today at 01:00 a.m." content="Hi!" />
       <CommentDetail
         author="Carl"
         timeAgo="Today 00:00 a.m."
-        text="Hey, guys!"
+        content="Hey, guys!"
       />
     </div>
   );
