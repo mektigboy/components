@@ -13,9 +13,9 @@ const CommentDetail = (props) => {
           {props.author}
         </a>
         <div className="metadata">
-          <span className="date">Today at 00:00AM</span>
+          <span className="date">{props.timeAgo}</span>
         </div>
-        <div className="text">Cool.</div>
+        <div className="text">{props.text}</div>
       </div>
     </div>
   );
